@@ -1,0 +1,23 @@
+.mainbox {
+  display: flex;
+  width: 320px;
+  align-content: center;
+}
+.bannertitle {
+}
+.navegationmenu {
+  flex-direction: row;
+  flex-grow: initial;
+  flex-flow: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-around;
+}
+.navitem1 {
+  flex-direction: row;
+  padding: center;
+}
+.mainimg {
+}
+.parrafointro {
+}
