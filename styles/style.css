@@ -3,8 +3,8 @@
   width: 320px;
   align-content: center;
 }
-.bannertitle {
-}
+/* .bannertitle {
+} */
 .navegationmenu {
   flex-direction: row;
   flex-grow: initial;
@@ -17,7 +17,47 @@
   flex-direction: row;
   padding: center;
 }
-.mainimg {
+/* .mainimg {
 }
 .parrafointro {
+} */
+
+:root {
+  --brand-color: #14d9c4;
+}
+
+.boxequipo {
+  width: auto;
+  height: auto;
+  padding: 30px 15px;
+  background-color: #fff;
+}
+
+.equipo {
+  color: var(--brand-color);
+  width: auto;
+  height: auto;
+  margin: 0 99.5px 15px 101.5px;
+  font-family: "rubik", sans-serif;
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.equipolorem {
+  color: #54585a;
+  width: auto;
+  margin: 15px 0 0;
+  font-family: "opensans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
 }
