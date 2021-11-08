@@ -1,10 +1,20 @@
-.mainbox {
+.hojamain {
   display: flex;
   width: 320px;
+  flex-flow: column;
+  background: blueviolet;
+  align-items: center;
+}
+.mainbox {
+  display: flex;
   align-content: center;
 }
-/* .bannertitle {
-} */
+.bannertitle {
+  height: 60px;
+  padding: 15px 80px;
+  opacity: 0.95;
+  background-color: blueviolet;
+}
 .navegationmenu {
   flex-direction: row;
   flex-grow: initial;
