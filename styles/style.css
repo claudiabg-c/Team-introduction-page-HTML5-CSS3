@@ -1,21 +1,25 @@
 .hojamain {
+  font-family: Rubik; /* fuente no instalada*/
   display: flex;
   width: 320px;
   flex-flow: column;
-  background: blueviolet;
-  align-items: center;
+  background: #d9e78b;
+  justify-items: center;
 }
-.mainbox {
-  display: flex;
-  align-content: center;
+mainbox {
+  border: purple 4px solid;
 }
+
 .bannertitle {
   height: 60px;
-  padding: 15px 80px;
-  opacity: 0.95;
-  background-color: blueviolet;
+  background-color: #099d8d;
+  color: white;
+  font-size: 16px;
 }
 .navegationmenu {
+  height: 45px;
+  color: white;
+  background-color: aqua;
   flex-direction: row;
   flex-grow: initial;
   flex-flow: wrap;
