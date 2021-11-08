@@ -61,3 +61,39 @@
   font-style: normal;
   letter-spacing: normal;
 }
+.box-strenghts-weaknesses {
+  width: 320px;
+  height: 579px;
+  margin: 504px 0 0;
+  padding: 30px 15px 45px;
+  background-color: #b8b8b9;
+  padding: 30px 15px 45px;
+}
+
+.text {
+  width: 290px;
+  height: 192px;
+  margin: 45px 0 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+  color: #54585a;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.title {
+  width: auto;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 2.05;
+  text-align: center;
+  color: #099d8d;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
