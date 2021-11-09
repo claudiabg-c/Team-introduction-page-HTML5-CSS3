@@ -112,30 +112,27 @@ mainbox {
   letter-spacing: normal;
 }
 
-
-** Pie de pagina **
-
-
-nav, li {
+** Pie de pagina ** nav,
+li {
   width: 114px;
   height: 60px;
   color: #54585a;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   font-style: normal;
   text-align: center;
-  line-height: 1,43;
+  line-height: 1, 43;
   margin: 20 29 30px;
-  letter-spacing:normal;
+  letter-spacing: normal;
   font-stretch: normal;
   list-style-type: none;
-  opacity: 0,75;
+  opacity: 0, 75;
 }
 
 .nombre-grupo {
   color: #b8b8b9;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -143,9 +140,9 @@ nav, li {
   letter-spacing: normal;
   text-align: center;
   margin: 0 0 20px;
-  line-height: 1,43;
+  line-height: 1, 43;
   width: 172px;
-  height: 20px;  
+  height: 20px;
 }
 
 a {
@@ -154,7 +151,7 @@ a {
 }
 
 .imagen-adalab {
-  width: 115,9px;
+  width: 115, 9px;
   height: 45px;
-  margin: 30px 28,1px 0 28px;
+  margin: 30px 28, 1px 0 28px;
 }
