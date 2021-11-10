@@ -145,12 +145,15 @@
   color: #099d8d;
   font-size: 24px;
   line-height: 45px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .itemAbout {
-  background: lightcyan;
+  background: white;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 15px;
   color: #54585a;
 }
 
@@ -158,6 +161,14 @@
   font-size: 20px;
   color: black;
   line-height: 45px;
+}
+
+.picture {
+  width: 180px;
+  height: 180px;
+  border: 5px lightgray solid;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 /* flex */
