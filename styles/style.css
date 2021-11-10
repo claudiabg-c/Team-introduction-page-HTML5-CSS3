@@ -1,3 +1,4 @@
+/*Barbara*/
 .hojamain {
   font-family: Rubik; /* fuente no instalada*/
   display: flex;
@@ -5,7 +6,7 @@
   background: #d9e78b;
   justify-items: center;
 }
-mainbox {
+.mainbox {
   border: purple 4px solid;
 }
 
@@ -35,10 +36,22 @@ mainbox {
   flex-direction: row;
   padding: center;
 }
-/* .mainimg {
+.mainimg {
+  width: 100px; /*le doy ancho*/
+  height: 100px; /*le doy alto*/
+  border: solid black 5px; /*le pongo borde porque, por ahora, me apetece ver su box*/
+  object-fit: contain; /*quiero que la imagen se adapte a nuestro objeto*/
+  /*cómo hacer que la foto quede de fondo, atrás, y que el texto se superponga?*/
 }
-.parrafointro {
+.imagenfondomain {
+  /*tengo que darle alto y ancho a la imagen para que me funcione el object fit de arriba*/
+  height: 100px;
+  width: 100px;
+}
+/*.parrafointro {
 } */
+
+/*Claudia*/
 
 :root {
   --brand-color: #14d9c4;
