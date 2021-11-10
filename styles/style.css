@@ -1,7 +1,6 @@
 .hojamain {
   font-family: Rubik; /* fuente no instalada*/
   display: flex;
-  width: 320px;
   flex-flow: column;
   background: #d9e78b;
   justify-items: center;
@@ -11,15 +10,20 @@ mainbox {
 }
 
 .bannertitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
   height: 60px;
   background-color: #099d8d;
   color: white;
-  font-size: 16px;
+  text-transform: uppercase;
 }
 .navegationmenu {
   height: 45px;
   color: white;
   background-color: aqua;
+  display: flex;
   flex-direction: row;
   flex-grow: initial;
   flex-flow: wrap;
