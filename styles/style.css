@@ -116,6 +116,45 @@ mainbox {
   letter-spacing: normal;
 }
 
+/* María */
+
+.containerAboutUs {
+  background: white;
+  width: 320px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.titleAboutUs {
+  font-family: 'Rubik', sans-serif;
+  color: #099d8d;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.itemAbout {
+  background: lightcyan;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #54585a;
+}
+
+.name {
+  font-size: 20px;
+  color: black;
+  line-height: 45px;
+}
+
+/* flex */
+
+.containerAboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 ** Pie de pagina ** nav,
 li {
   width: 114px;
