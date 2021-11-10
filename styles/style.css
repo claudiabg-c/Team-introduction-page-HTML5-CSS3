@@ -2,14 +2,12 @@
 .hojamain {
   width: 100%;
   font-family: Rubik; /* fuente no instalada*/
-  display: flex;
   flex-flow: column;
   background: #d9e78b;
   justify-items: center;
 }
 .mainbox {
   width: 100%;
-  border: purple 4px solid;
 }
 
 .bannertitle {
@@ -39,20 +37,19 @@
   padding: center;
 }
 .mainimg {
-  background-image: url("images/mainbackgroundimg.jpg");
+  background-image: url(/images/mainbackgroundimg\ cuadrado.jpg);
+  background-repeat: no-repeat;
   background-size: contain;
-width: 100%; /*le doy ancho*/
-height: 100%; /*le doy alto */
-object-fit: contain; /*quiero que la imagen se adapte a nuestro objeto */
-/*cómo hacer que la foto quede de fondo, atrás, y que el texto se superponga?*/
-/* }
-.imagenfondomain {
-  /*tengo que darle alto y ancho a la imagen para que me funcione el object fit de arriba*/
-  height: 100px;
-  width: 100px;
-}
-/*.parrafointro {
+  height: 500px;
+  width: 100%;
+ }
+  .parrafointro {
+    background-color:white;
+    transform: translate(0,+50%);
+    border: red 5px solid; /* pa borrar, está bien la caja colocada en el eje correcto*/
+    
 } */
+/*entre Claudia y mi hay un espacio vacío que no entiendo*/
 
 /*Claudia*/
 
@@ -105,7 +102,7 @@ object-fit: contain; /*quiero que la imagen se adapte a nuestro objeto */
   height: 579px;
   margin: 504px 0 0;
   padding: 30px 15px 45px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   padding: 30px 15px 45px;
 }
 
