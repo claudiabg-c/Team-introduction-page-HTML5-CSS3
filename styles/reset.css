@@ -12,6 +12,10 @@
 /* Let's default this puppy out
 -------------------------------------------------------------------------------*/
 
+:root {
+  --brand-color: #099d8d;
+}
+
 html,
 body,
 body div,
