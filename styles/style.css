@@ -176,6 +176,17 @@ p.teamtext {
   align-items: center;
 }
 
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+}
+
+.fab {
+  color: #099d8d;
+}
+
 /* ** Pie de pagina **  */
 /* nav,
 li {
