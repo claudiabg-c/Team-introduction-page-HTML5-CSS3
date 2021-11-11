@@ -42,13 +42,13 @@
   background-size: contain;
   height: 500px;
   width: 100%;
- }
-  .parrafointro {
-    background-color:white;
-    transform: translate(0,+50%);
-    border: red 5px solid; /* pa borrar, está bien la caja colocada en el eje correcto*/
-    
-} */
+}
+.parrafointro {
+  background-color: white;
+  transform: translate(0, +50%);
+  border: red 5px solid; /* pa borrar, está bien la caja colocada en el eje correcto*/
+}
+*/
 /*entre Claudia y mi hay un espacio vacío que no entiendo*/
 
 /*Claudia*/
@@ -57,45 +57,41 @@
   --brand-color: #099d8d;
 }
 
-.boxequipo {
-  width: auto;
-  height: auto;
-  padding: 30px 15px;
+.container {
+  padding: 0 15px;
   background-color: #fff;
 }
 
-.equipo {
-  color: var(--brand-color);
-  width: auto;
-  height: auto;
-  margin: 0 99.5px 15px 101.5px;
+.team {
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+.teamtitle {
+  color: #14d9c4;
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
   font-family: "rubik", sans-serif;
   font-size: 24px;
   line-height: 45px;
   text-align: center;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
 }
 
-.teamarticle {
+.teamtext {
   color: #54585a;
-  width: auto;
-  margin: 15px 0 0;
   font-family: "opensans", sans-serif;
   font-size: 16px;
   text-align: center;
   line-height: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
 }
 
-.teamtext {
-  margin-bottom: 30px;
+p.teamtext {
+  padding-bottom: 15px;
 }
+
+/* Macarena */
 
 .box-strenghts-weaknesses {
   width: 320px;
