@@ -84,20 +84,15 @@ p.teamtext {
   width: 100%;
   padding: 30px 15px 45px;
   background-color: #f1f1f1;
-  padding: 30px 15px 45px;
 }
 
 .text {
-  margin: 45px 0 30px;
+  margin: 15px 0px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  font-weight: normal;
   line-height: 1.5;
   text-align: center;
   color: #54585a;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
 }
 
 .title {
@@ -108,9 +103,6 @@ p.teamtext {
   line-height: 2.05;
   text-align: center;
   color: var(--brand-color);
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
 }
 
 .diamond {
