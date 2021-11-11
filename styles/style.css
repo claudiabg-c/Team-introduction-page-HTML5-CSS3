@@ -169,14 +169,17 @@ p.teamtext {
 }
 
 .socialMedia {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-content: center;
+    display: inline;
 }
 
 .fab {
-  color: #099d8d;
+    color: #099d8d;
+    width: fit-content;
+    margin-bottom: 45px;
+    margin-top: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 18px;
 }
 
 /* ** Pie de pagina **  */
