@@ -126,13 +126,18 @@ p.teamtext {
   letter-spacing: normal;
 }
 
+.diamond {
+  display: flex;
+  justify-content: center;
+}
+
 .rombo {
   background: white;
   width: 30px;
   height: 30px;
   position: absolute;
-  top: -0%;
-  transform: translateY(70%) rotate(45deg);
+  margin: auto;
+  transform: translateY(-50%) rotate(45deg);
 }
 /* María */
 
