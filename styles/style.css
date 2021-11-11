@@ -63,7 +63,6 @@
 }
 
 .team {
-  padding-bottom: 30px;
   background-color: #fff;
 }
 
@@ -88,7 +87,7 @@
 }
 
 p.teamtext {
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 /* Macarena */
