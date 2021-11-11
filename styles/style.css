@@ -1,7 +1,6 @@
 /*Barbara*/
 .hojamain {
   width: 100%;
-  font-family: Rubik; /* fuente no instalada*/
   flex-flow: column;
   background: #d9e78b;
   justify-items: center;
@@ -11,6 +10,7 @@
 }
 
 .bannertitle {
+  font-family:  "rubik", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +21,7 @@
   text-transform: uppercase;
 }
 .navegationmenu {
+  font-family:  "rubik", sans-serif;
   height: 45px;
   color: white;
   background-color: aqua;
@@ -45,7 +46,7 @@
 }
 .parrafointro {
   background-color: white;
-  transform: translate(0, +50%);
+  transform: translate(0, -500%);
   border: red 5px solid; /* pa borrar, está bien la caja colocada en el eje correcto*/
 }
 */
