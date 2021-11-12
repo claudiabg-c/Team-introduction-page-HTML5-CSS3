@@ -52,6 +52,7 @@
 
 .team {
   transform: translateY(-10px);
+  padding-top: 15px;
   background-color: #fff;
 }
 
@@ -72,6 +73,7 @@
   font-size: 16px;
   text-align: center;
   line-height: 24px;
+  padding: 0 15px;
 }
 
 p.teamtext {
@@ -169,17 +171,17 @@ p.teamtext {
 }
 
 .socialMedia {
-    display: inline;
+  display: inline;
 }
 
 .fab {
-    color: #099d8d;
-    width: fit-content;
-    margin-bottom: 45px;
-    margin-top: 15px;
-    padding-left: 7px;
-    padding-right: 7px;
-    font-size: 18px;
+  color: #099d8d;
+  width: fit-content;
+  margin-bottom: 45px;
+  margin-top: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 18px;
 }
 
 /* ** Pie de pagina **  */
