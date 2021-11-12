@@ -15,13 +15,13 @@
   font-size: 24px;
   height: 60px;
   background-color: #099d8d;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
 }
 .navegationmenu {
   font-family: "Rubik", sans-serif;
   height: 45px;
-  color: white;
+  color: #fff;
   background-color: #14d9c4;
   display: flex;
   flex-grow: initial;
@@ -35,13 +35,12 @@
 }
 
 .parrafointro {
-  background-color: white;
+  background-color: #fff;
   transform: translate(0, -50%);
   width: 100%;
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
-*/
 
 /*Claudia*/
 
@@ -217,11 +216,11 @@ li {
   width: 172px;
   height: 20px;
 }
-
-a {
+/* esta sección debería de tener un class para ella porque, si usas "a" estás cambiando las propiedades a otros vínculos usados más arriba; soy Bárbara. Te lo pongo en comentario*/
+/*a {
   text-decoration: none;
   color: #54585a;
-}
+}*/
 
 .imagen-adalab {
   width: 115, 9px;
