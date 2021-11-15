@@ -15,13 +15,13 @@
   font-size: 24px;
   height: 60px;
   background-color: #099d8d;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
 }
 .navegationmenu {
   font-family: "Rubik", sans-serif;
   height: 45px;
-  color: white;
+  color: #fff;
   background-color: #14d9c4;
   display: flex;
   flex-grow: initial;
@@ -35,13 +35,12 @@
 }
 
 .parrafointro {
-  background-color: white;
+  background-color: #fff;
   transform: translate(0, -50%);
   width: 100%;
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
-*/
 
 /*Claudia*/
 
@@ -184,38 +183,34 @@ p.teamtext {
   font-size: 18px;
 }
 
-/* ** Pie de pagina **  */
-/* nav,
-li {
-  width: 114px;
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-top: 2px solid #b8b8b9;
+}
+
+.menu {
   height: 60px;
   color: #54585a;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  font-style: normal;
-  text-align: center;
-  line-height: 1, 43;
-  margin: 20 29 30px;
   letter-spacing: normal;
-  font-stretch: normal;
+  text-align: center;
+  line-height: 140%;
   list-style-type: none;
-  opacity: 0, 75;
-} */
+  margin: -10px;
+  padding: 5px;
+}
 
 .nombre-grupo {
   color: #b8b8b9;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
   text-align: center;
-  margin: 0 0 20px;
-  line-height: 1, 43;
-  width: 172px;
-  height: 20px;
+  padding: 30px 30px 30px;
 }
 
 a {
@@ -223,8 +218,8 @@ a {
   color: #54585a;
 }
 
-.imagen-adalab {
+.imagen {
   width: 115, 9px;
   height: 45px;
-  margin: 30px 28, 1px 0 28px;
+  margin: 30px;
 }
