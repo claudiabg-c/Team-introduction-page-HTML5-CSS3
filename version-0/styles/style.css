@@ -1,10 +1,10 @@
 /*Barbara*/
 .mainbox {
- width: 100%;
+  width: 100%;
   background-image: url("../images/mainbackgroundimg-cuadrado.jpg");
   background-repeat: no-repeat;
- background-size: 100% 100%;
- height: 500px;
+  background-size: 100% 100%;
+  height: 500px;
 }
 
 .bannertitle {
@@ -29,7 +29,6 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: space-around;
-
 }
 .navitem1 {
   flex-direction: row;
@@ -231,19 +230,15 @@ p.teamtext {
   margin: 30px;
 }
 
-
 /*<-- CABECERA TABLET -->*/
 
-@media all and (min-width: 768 px) {
+@media all and (min-width: 768px) {
   .navegationmenu {
-   flex-direction: row;
+    flex-direction: row;
     justify-content: space-between;
   }
 
   .navitem1 {
     flex-direction: row;
-  
-   
-  
   }
 }
