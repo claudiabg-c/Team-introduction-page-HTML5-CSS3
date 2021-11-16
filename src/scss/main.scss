@@ -7,7 +7,7 @@
 // @import 'layout/footer';
 // @import 'pages/index';
 
-/*Barbara*/
+/*header*/
 .mainbox {
   width: 100%;
   background-image: url("../images/mainbackgroundimg-cuadrado.jpg");
@@ -57,7 +57,18 @@
   text-align: center;
 }
 
-/*Claudia*/
+@media all and (min-width: 768px) {
+  .navegationmenu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navitem1 {
+    flex-direction: row;
+  }
+}
+
+/*team*/
 
 .container {
   padding: 0 15px;
@@ -94,7 +105,7 @@ p.teamtext {
   padding-bottom: 30px;
 }
 
-/* Macarena */
+/* strengths */
 
 .container-sw {
   width: 100%;
@@ -134,7 +145,7 @@ p.teamtext {
   margin: auto;
   transform: translateY(-50%) rotate(45deg);
 }
-/* María */
+/* about us */
 
 .containerAboutUs {
   background: white;
@@ -176,8 +187,6 @@ p.teamtext {
   object-fit: cover;
 }
 
-/* flex */
-
 .containerAboutUs {
   display: flex;
   flex-direction: column;
@@ -197,6 +206,8 @@ p.teamtext {
   padding-right: 7px;
   font-size: 18px;
 }
+
+// footer
 
 .footer {
   display: flex;
@@ -237,17 +248,4 @@ p.teamtext {
   width: 115, 9px;
   height: 45px;
   margin: 30px;
-}
-
-/*<-- CABECERA TABLET -->*/
-
-@media all and (min-width: 768px) {
-  .navegationmenu {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .navitem1 {
-    flex-direction: row;
-  }
 }
