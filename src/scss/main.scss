@@ -100,10 +100,10 @@
   text-align: center;
   line-height: 24px;
   padding: 0 15px;
-}
 
-p.teamtext {
-  padding-bottom: 30px;
+  & p {
+    padding-bottom: 30px;
+  }
 }
 
 /* strengths */
@@ -116,7 +116,7 @@ p.teamtext {
 
 .text {
   margin: 15px 0px 30px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "opensans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -152,7 +152,7 @@ p.teamtext {
   background: white;
   width: 100%;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "opensans", sans-serif;
   font-size: 16px;
   line-height: 24px;
 }
@@ -222,8 +222,7 @@ p.teamtext {
 .menu {
   height: 60px;
   color: #54585a;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-family: "opensans", sans-serif;
   font-size: 14px;
   letter-spacing: normal;
   text-align: center;
@@ -235,7 +234,7 @@ p.teamtext {
 
 .nombre-grupo {
   color: #b8b8b9;
-  font-family: "Open Sans", sans-serif;
+  font-family: "opensans", sans-serif;
   font-size: 14px;
   text-align: center;
   padding: 30px 30px 30px;
