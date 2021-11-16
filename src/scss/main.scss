@@ -102,7 +102,6 @@
 /* strengths */
 
 .container-sw {
-  width: 100%;
   padding: 30px 15px 45px;
   background-color: #f1f1f1;
 }
@@ -139,6 +138,28 @@
   margin: auto;
   transform: translateY(-50%) rotate(45deg);
 }
+
+@media all and (min-width: 768px) {
+  .container-sw {
+    padding: 15px 45px 60px;
+    display: flex;
+
+    & .box-strengths {
+      width: 50%;
+      padding-right: 15px;
+    }
+
+    & .box-weaknesses {
+      width: 50%;
+      padding-left: 15px;
+    }
+
+    & .text {
+      margin: 0;
+    }
+  }
+}
+
 /* about us */
 
 .containerAboutUs {
