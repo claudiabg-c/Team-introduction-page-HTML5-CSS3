@@ -38,23 +38,7 @@
   margin: 30px;
 }
 
-@media all and (min-width: 768px) {
-  .footer {
-    padding-right: 45px;
-    padding-left: 45px;
-    & .menu {
-      text-align: right;
-    }
-    & .nombre-grupo {
-      text-align: left;
-      padding-left: 0;
-    }
-    & .imagen {
-      position: absolute;
-    }
-  }
-
-@media all and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .footer {
     padding-right: 138px;
     padding-left: 138px;
@@ -71,4 +55,4 @@
   .imagen {
     align-items: flex-start;
   }
-  }
+}
