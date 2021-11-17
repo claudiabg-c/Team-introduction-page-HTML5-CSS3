@@ -1,0 +1,60 @@
+.containerAboutUs {
+  background: white;
+  width: 100%;
+  text-align: center;
+  font-family: "opensans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.titleAboutUs {
+  font-family: "Rubik", sans-serif;
+  color: var(--brand-color);
+  font-size: 24px;
+  line-height: 45px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.itemAbout {
+  background: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  color: #54585a;
+}
+
+.name {
+  font-size: 20px;
+  color: black;
+  line-height: 45px;
+}
+
+.picture {
+  width: 180px;
+  height: 180px;
+  border: 5px lightgray solid;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.containerAboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+}
+
+.fab {
+  color: #099d8d;
+  width: fit-content;
+  margin-bottom: 45px;
+  margin-top: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 18px;
+}

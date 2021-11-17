@@ -1,8 +1,39 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-top: 2px solid #b8b8b9;
+}
+
+.menu {
+  height: 60px;
+  color: #54585a;
+  font-family: "opensans", sans-serif;
+  font-size: 14px;
+  letter-spacing: normal;
+  text-align: center;
+  line-height: 140%;
+  list-style-type: none;
+  margin: -10px;
+  padding: 5px;
+}
+
+.nombre-grupo {
+  color: #b8b8b9;
+  font-family: "opensans", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 30px 30px;
+}
+
+.lista {
+  text-decoration: none;
+  color: #54585a;
+}
+
+.imagen {
+  width: 115, 9px;
+  height: 45px;
+  margin: 30px;
 }
