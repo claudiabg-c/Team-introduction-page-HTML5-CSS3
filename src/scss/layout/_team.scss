@@ -5,11 +5,11 @@
   & .intro {
     background-color: #fff;
     transform: translate(0, -50%);
-    width: fit-content;
     font-family: "Open Sans", sans-serif;
     text-align: center;
     padding: 14px 15px 16px;
     margin: 0 15px;
+    font-size: 16px;
   }
 
   & .team {
@@ -30,6 +30,22 @@
       font-size: 16px;
       text-align: center;
       line-height: 24px;
+    }
+  }
+  @media (min-width: 768px) {
+    .intro {
+      justify-content: center;
+      width: fit-content; /*si le quiero cambiar el tamaño que se adapte al texto, se me va a la izquierada*/
+      font-size: 18px;
+    }
+    .team {
+      & .teamtitle {
+        font-size: 28px; /*hay que cambiar los tamaños de las letras a mayor resolución?*/
+      }
+      & .teamtext {
+        font-size: 18px;
+        line-height: 1.5;
+      }
     }
   }
 }
