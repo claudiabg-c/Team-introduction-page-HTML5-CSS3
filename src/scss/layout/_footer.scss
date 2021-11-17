@@ -37,3 +37,21 @@
   height: 45px;
   margin: 30px;
 }
+@media (min-width: 1200px) {
+  .footer {
+    padding-right: 138px;
+    padding-left: 138px;
+  }
+  .menu {
+    text-align: right;
+  }
+
+  .nombre-grupo {
+    text-align: left;
+    padding: 30px 30px 15px 0px;
+  }
+
+  .imagen {
+    align-items: flex-start;
+  }
+}
