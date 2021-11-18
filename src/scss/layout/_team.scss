@@ -41,7 +41,8 @@
     }
     .team {
       & .teamtitle {
-        font-size: 28px; /*hay que cambiar los tamaños de las letras a mayor resolución?*/
+        font-size: 28px;
+        padding: 20px;
       }
       & .teamtext {
         font-size: 18px;

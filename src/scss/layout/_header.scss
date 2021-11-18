@@ -69,3 +69,10 @@
     width: 50%;
   }
 }
+
+@media all and (min-width: 1200px) {
+  .navegationmenu {
+    justify-content: space-around;
+    padding: 15px 130px 15px;
+  }
+}
