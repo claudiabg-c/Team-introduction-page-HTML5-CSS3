@@ -41,7 +41,6 @@
 }
 
 @media all and (min-width: 768px) {
-
   .mainbox {
     display: flex;
   }
@@ -50,18 +49,17 @@
     font-size: 16px;
     padding: 15px 45px 15px;
     height: 60px;
+    justify-content: left;
   }
 
   .navegationmenu {
-    flex-direction: row;
     justify-content: space-between;
-    background-color:#099d8d;
+    background-color: #099d8d;
     height: 60px;
     padding: 15px 45px 15px;
-    width: 145%;
-  }
-
-  .navitem1 {
+    font-size: 16px;
     flex-direction: row;
+    width: 100%;
+    margin: 0 40px 0 0;
   }
 }
