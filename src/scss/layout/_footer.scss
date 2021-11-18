@@ -50,6 +50,7 @@
     }
     & .imagen {
       position: absolute;
+      margin: 30px 0px;
     }
     .navFooter {
       transform: translateY(-30px);
@@ -59,8 +60,7 @@
 
 @media (min-width: 1200px) {
   .footer {
-    padding-right: 138px;
-    padding-left: 138px;
+    padding: 5px 138px 40px 138px;
   }
   .menu {
     text-align: right;
@@ -68,10 +68,15 @@
 
   .nombre-grupo {
     text-align: left;
-    padding: 30px 30px 15px 0px;
+    padding: 30px 30px 30px 0px;
   }
 
   .imagen {
-    align-items: flex-start;
+    align-items: left;
+    margin: 30px 0px;
+  }
+
+  .navFooter {
+    transform: translateY(-45px);
   }
 }
