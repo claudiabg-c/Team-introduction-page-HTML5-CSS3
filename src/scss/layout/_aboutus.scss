@@ -58,3 +58,46 @@
   padding-right: 7px;
   font-size: 18px;
 }
+
+@media all and (min-width: 768px) {
+  .right {
+    display: flex;
+    padding-left: 44px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 45px;
+  }
+
+  .content-us-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 16px 44px 15px 31px;
+  }
+
+  .content-us-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 16px 44px 15px 31px;
+  }
+
+  .itemAbout {
+    padding: 0;
+  }
+
+  .fab {
+    padding-left: 0;
+    padding-right: 14px;
+  }
+
+  .picture {
+    width: 205px;
+    height: 205px;
+  }
+}
