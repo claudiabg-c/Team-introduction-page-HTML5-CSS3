@@ -57,18 +57,16 @@
 }
 @media (min-width: 1200px) {
   .box-strengths{
-   margin:100px 50px 50px 50px;
+  padding:35px;
     & .title{
       font-size: 28px;
-    }
-    
+    }  
     & .text{
       font-size: 18px; 
     } 
   }
-  
   .box-weaknesses{
-    margin: 100px 50px 50px 50px;
+   padding: 35px;
     & .title{
       font-size: 28px;
     }

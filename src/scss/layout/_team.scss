@@ -36,15 +36,17 @@
     .intro {
       justify-content: center;
       width: fit-content;
-      font-size: 18px;
+      font-size: 18px;      
     }
     .team {
       & .teamtitle {
-        font-size: 28px; /*hay que cambiar los tamaños de las letras a mayor resolución?*/
+        font-size: 28px;
+        padding: 20px;
       }
       & .teamtext {
         font-size: 18px;
         line-height: 1.5;
+        padding: 25px;
       }
     }
   }
