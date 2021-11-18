@@ -57,23 +57,23 @@
 }
 @media (min-width: 1200px) {
   .box-strengths{
-    margin:100px 50px 50px 50px;
+   margin:100px 50px 50px 50px;
     & .title{
-      font-size: 20px;
+      font-size: 28px;
     }
-    &.text{
-      font-size: 18px; /*le he subido los tamaños de letra pero creo que de deberían de cambiar únicamente desde la vista de tablet y que table y pc usaran el mismo tamaño*/
-      color: blue;
-    }
+    
+    & .text{
+      font-size: 18px; 
+    } 
   }
+  
   .box-weaknesses{
     margin: 100px 50px 50px 50px;
     & .title{
-      font-size: 20px;
+      font-size: 28px;
     }
-    &.text{
-      font-size: 18px; /*no me está aplicando cambios de tamaño ni color en los parrafos ni titulo*/
-      color: blue;
+    & .text{
+      font-size: 18px; 
     }
   }
 }
