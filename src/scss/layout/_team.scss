@@ -17,7 +17,7 @@
     background-color: #fff;
 
     & .teamtitle {
-      color: #14d9c4;
+      color: #099d8d;
       font-family: "rubik", sans-serif;
       font-size: 24px;
       text-align: center;
@@ -37,6 +37,7 @@
       justify-content: center;
       width: fit-content;
       font-size: 18px;
+      opacity: 0.8;
     }
     .team {
       & .teamtitle {
@@ -45,7 +46,23 @@
       & .teamtext {
         font-size: 18px;
         line-height: 1.5;
+        padding: 20px 20px 5px;
       }
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro {
+    font-size: 20px;
+    opacity: 0.8;
+  }
+  & .teamtext {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 30px;
+  }
+  & .teamtitle {
+    padding: 20px;
   }
 }
