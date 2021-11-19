@@ -1,0 +1,38 @@
+.contactsection {
+  padding: 0 15px;
+
+  & .titlecontact {
+    color: var(--brand-color);
+    text-transform: uppercase;
+    font-family: "rubik", sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  & .textcontact {
+    color: #54585a;
+    font-family: "opensans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    padding-top: 0%;
+    padding-bottom: 30px;
+  }
+
+  & .small {
+    font-size: 12px;
+    color: #54585a;
+    text-align: center;
+    font-family: "opensans", sans-serif;
+    padding-bottom: 58px;
+
+    & span {
+      color: #14d9c4;
+    }
+  }
+}
