@@ -60,6 +60,14 @@
 }
 
 @media all and (min-width: 768px) {
+  .containerAboutUs {
+    padding-bottom: 48px;
+  }
+
+  .titleAboutUs {
+    font-size: 28px;
+  }
+
   .right {
     display: flex;
     padding-left: 44px;
@@ -77,6 +85,7 @@
     align-items: flex-start;
     text-align: left;
     padding: 16px 44px 15px 31px;
+    font-size: 18px;
   }
 
   .content-us-left {
@@ -85,6 +94,7 @@
     align-items: flex-end;
     text-align: right;
     padding: 16px 44px 15px 31px;
+    font-size: 18px;
   }
 
   .itemAbout {
@@ -105,36 +115,30 @@
 @media (min-width: 1200px) {
   .containerAboutUs {
     padding-bottom: 60px;
-  }
 
-  .titleAboutUs {
-    font-size: 28px;
-  }
+    & .right {
+      padding-left: 138px;
 
-  .right {
-    padding-left: 138px;
-  }
+      & .content-us-right {
+        padding-left: 45px;
+        padding-right: 300px;
+        padding-bottom: 151px;
+      }
+    }
 
-  .content-us-right {
-    padding-left: 45px;
-    padding-right: 300px;
-    padding-bottom: 151px;
-    font-size: 18px;
-  }
+    .left {
+      padding-right: 138px;
 
-  .left {
-    padding-right: 138px;
-  }
+      & .content-us-left {
+        padding-right: 45px;
+        padding-left: 300px;
+        padding-bottom: 151px;
+      }
+    }
 
-  .content-us-left {
-    padding-right: 45px;
-    padding-left: 300px;
-    padding-bottom: 151px;
-    font-size: 18px;
-  }
-
-  .picture {
-    width: 278px;
-    height: 278px;
+    & .picture {
+      width: 278px;
+      height: 278px;
+    }
   }
 }
