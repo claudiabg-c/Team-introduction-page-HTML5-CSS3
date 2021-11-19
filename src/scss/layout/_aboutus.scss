@@ -101,3 +101,40 @@
     height: 205px;
   }
 }
+
+@media (min-width: 1200px) {
+  .containerAboutUs {
+    padding-bottom: 60px;
+  }
+
+  .titleAboutUs {
+    font-size: 28px;
+  }
+
+  .right {
+    padding-left: 138px;
+  }
+
+  .content-us-right {
+    padding-left: 45px;
+    padding-right: 300px;
+    padding-bottom: 151px;
+    font-size: 18px;
+  }
+
+  .left {
+    padding-right: 138px;
+  }
+
+  .content-us-left {
+    padding-right: 45px;
+    padding-left: 300px;
+    padding-bottom: 151px;
+    font-size: 18px;
+  }
+
+  .picture {
+    width: 278px;
+    height: 278px;
+  }
+}

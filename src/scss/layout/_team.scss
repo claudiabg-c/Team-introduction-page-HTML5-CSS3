@@ -17,7 +17,7 @@
     background-color: #fff;
 
     & .teamtitle {
-      color: #099d8d;
+      color: #14d9c4;
       font-family: "rubik", sans-serif;
       font-size: 24px;
       text-align: center;
@@ -43,7 +43,9 @@
       & .teamtitle {
         font-size: 28px;
         padding: 20px;
+        color: var(--brand-color);
       }
+
       & .teamtext {
         font-size: 18px;
         line-height: 1.5;
