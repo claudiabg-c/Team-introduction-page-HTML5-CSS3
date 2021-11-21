@@ -30,9 +30,60 @@
     text-align: center;
     font-family: "opensans", sans-serif;
     padding-bottom: 58px;
+  }
+}
 
-    & span {
-      color: #14d9c4;
-    }
+span {
+  color: #14d9c4;
+}
+
+.form {
+  padding: 0 15px;
+
+  & label {
+    font-size: 14px;
+    font-family: "opensans", sans-serif;
+    color: #54585a;
+  }
+
+  & input {
+    height: 45px;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 13px;
+    border: 1px solid #b8b8b9;
+    padding-left: 15px;
+  }
+
+  ::placeholder {
+    color: #b8b8b9;
+    font-size: 14px;
+    font-family: "opensans", sans-serif;
+  }
+
+  #email::placeholder {
+    color: #54585a;
+    font-size: 16px;
+  }
+
+  & #textarea {
+    width: 100%;
+    height: 105px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border: 1px solid #b8b8b9;
+    padding-left: 15px;
+  }
+
+  & .send {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 60px;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    background-color: var(--brand-color);
+    text-transform: uppercase;
+    font-weight: 600;
   }
 }
