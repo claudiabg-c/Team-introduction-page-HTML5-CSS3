@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Team 2 project</title>
-  <!-- <link rel="stylesheet" href="./styles/reset.css"> -->
   <link rel="stylesheet" href="./assets/css/main.css">
   <script src="https://kit.fontawesome.com/80c9b8179a.js" crossorigin="anonymous"></script>
   <style>
@@ -19,14 +18,15 @@
   <!-- Header -->
 
   <section class="mainbox">
-    <h1 class="bannertitle">Developers Squad</h1>
-    <nav>
+    <h1 class="bannertitle"><a href="../index.html">Developers Squad</a></h1>
+    <nav class="navHeader">
       <ul class="navegationmenu">
-        <li class="navitem1"><a class="navitem2" href="#vinequipo">EQUIPO</a></li>
-        <li class="navitem1"><a class="navitem2" href="#vinwho">QUIENES SOMOS</a></li>
-        <li class="navitem1"><a class="navitem2" href="#vincontact">CONTACTO</a></li>
+        <li class="navitem1"><a class="navitem2" href="../index.html#vinequipo">EQUIPO</a></li>
+        <li class="navitem1"><a class="navitem2" href="../index.html#vinwho">QUIENES SOMOS</a></li>
+        <li class="navitem1"><a class="navitem2" href="../contact.html">CONTACTO</a></li>
       </ul>
     </nav>
+
   </section>
 
   <!-- Team -->
@@ -44,10 +44,10 @@
         la programación.
       </p>
       <p class="teamtext">
-        Somos amantes de la tecnología, apasionadas por seguir aprendiendo y mejorando. Disfrutamos con nuestro
+        Amantes de la tecnología, apasionadas por seguir aprendiendo y mejorando. Disfrutamos con nuestro
         trabajo y afrontamos cada día y cada reto con positividad y energía.
         Si quieres conocernos y que trabajemos juntos, estamos abiertas a cualquier plan y proyecto que nos
-        propongan así que puedes contactarnos a través de la sección de cotacto.
+        propongan así que puedes contactarnos a través de la sección de Contacto.
       </p>
     </article>
   </section>
@@ -87,89 +87,107 @@
 
       <h2 class="titleAboutUs" id="vinwho">QUIÉNES SOMOS</h2>
 
-      <article>
+      <article class="right">
           <img src="./assets/images/macarena.jpeg" class="picture">
-          <h3 class="name">Macarena Peña</h3>
-          <p class="itemAbout">Ingeniera civil con MBA y experiencia en la gestión de proyectos de ingeniería. Destaca
-              por su proactividad, disciplina y compromiso. Asertiva, sociable y con un buen manejo de las habilidades
-              interpersonales.</p>
-          <nav>
-              <ul class="socialMedia">
-
-                  <li><i class="fab fa-twitter-square" alt="twitter"><a href="#"></a></i></li>
-                  <li><i class="fab fa-linkedin" alt="Linkedin"><a href="#"></a></i></li>
-                  <li><i class="fab fa-github" alt="github"><a href="#"></a></i></li>
-
-              </ul>
-          </nav>
+          <section class="content-us-right">
+              <h3 class="name">Macarena Peña</h3>
+              <p class="itemAbout">Ingeniera civil con MBA y experiencia en la gestión de proyectos de ingeniería. Destaca
+                  por su proactividad, disciplina y compromiso. Asertiva, sociable y con un buen manejo de las habilidades
+                  interpersonales.</p>
+              <nav>
+                  <ul class="socialMedia">
+                      <li>
+                          <a href="https://twitter.com/MacarenaPena93" target="_blank"><i class="fab fa-twitter-square"
+                                  alt="twitter"></i></a>
+                      </li>
+                      <li>
+                          <a href="https://www.linkedin.com/in/mpenacasares/" target="_blank"><i class="fab fa-linkedin"
+                                  alt="Linkedin"></i></a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/mpenacasares" target="_blank"><i class="fab fa-github"
+                                  alt="github"></i></a>
+                      </li>
+                  </ul>
+              </nav>
+          </section>
       </article>
 
-      <article>
+      <article class="left">
           <img src="./assets/images/barbara.jpg" class="picture">
-          <h3 class="name">Bárbara Ruiz</h3>
-          <p class="itemAbout">Técnico senior en RRHH, especializada en resolución de conflictos; así como la gestión
-              y organización de grandes equipos de trabajo. Curiosa, asertiva y observadora. Destacan sus dotes en
-              mediación y su capacidad de reconocer el trabajo bien desarrollado. </p>
-          <nav>
-              <ul class="socialMedia">
-
-                  <li><i class="fab fa-linkedin" alt="Linkedin"><a href="#"></a></i></li>
-                  <li><i class="fab fa-github" alt="github"><a href="#"></a></i></li>
-
-              </ul>
-          </nav>
+          <section class="content-us-left">
+              <h3 class="name">Bárbara Ruiz</h3>
+              <p class="itemAbout">Técnico senior en RRHH, especializada en resolución de conflictos; así como la gestión
+                  y organización de grandes equipos de trabajo. Curiosa, asertiva y observadora. Destacan sus dotes en
+                  mediación y su capacidad de reconocer el trabajo bien desarrollado. </p>
+              <nav>
+                  <ul class="socialMedia">
+                      <li>
+                          <a href="https://www.linkedin.com/in/barbararm1/" target="_blank"><i class="fab fa-linkedin"
+                                  alt="Linkedin"></i></a>
+                      </li>
+                      <li><a href="https://github.com/Babsrm" target="_blank"><i class="fab fa-github"
+                                  alt="github"></i></a></li>
+                  </ul>
+              </nav>
+          </section>
       </article>
 
-      <article>
+      <article class="right">
           <img src="./assets/images/maria.jpg" class="picture">
-          <h3 class="name">María Guerrero</h3>
-          <p class="itemAbout">Realizadora audiovisual con experiencia en prensa digital, redacción, diseño y montaje
-              de vídeo. Capacidad resolutiva, comunicativa y aptitud proactiva. Sobresale por su trabajo minucioso y
-              creatividad en la resolución de conflictos.</p>
-          <nav>
-              <ul class="socialMedia">
-
-                  <li><i class="fab fa-twitter-square" alt="twitter"><a href="#"></a></i></li>
-                  <li><i class="fab fa-linkedin" alt="Linkedin"><a href="#"></a></i></li>
-                  <li><i class="fab fa-instagram-square" alt="Instagram"><a href="#"></a></i></li>
-                  <li><i class="fab fa-github" alt="github"><a href="#"></a></i></li>
-
-              </ul>
-          </nav>
+          <section class="content-us-right">
+              <h3 class="name">María Guerrero</h3>
+              <p class="itemAbout">Realizadora audiovisual con experiencia en prensa digital, redacción, diseño y montaje
+                  de vídeo. Capacidad resolutiva, comunicativa y aptitud proactiva. Sobresale por su trabajo minucioso y
+                  creatividad en la resolución de conflictos.</p>
+              <nav>
+                  <ul class="socialMedia">
+                      <li><i class="fab fa-twitter-square" alt="twitter"><a href="#" target="_blank"></a></i></li>
+                      <li><i class="fab fa-linkedin" alt="Linkedin"><a href="#" target="_blank"></a></i></li>
+                      <li><i class="fab fa-instagram-square" alt="Instagram"><a href="#" target="_blank"></a></i></li>
+                      <li><i class="fab fa-github" alt="github"><a href="#" target="_blank"></a></i></li>
+                  </ul>
+              </nav>
+          </section>
       </article>
 
-      <article>
+      <article class="left">
           <img src="./assets/images/denise.jpg" class="picture">
-          <h3 class="name">Denise Overbeck Troglio</h3>
-          <p class="itemAbout">Con formación en Secretariado Ejecutivo, y experiencia en empresas de auditoría y
-              educación.
-              Detallista, observadora y proactiva. Capacidad de trabajo en equipo y buen relacionamiento
-              interpersonal.</p>
-          <nav>
-              <ul class="socialMedia">
-                  <li><i class="fab fa-linkedin" alt="Linkedin"><a href="#"></a></i></li>
-                  <li><i class="fab fa-github" alt="github"><a href="#"></a></i></li>
-
-              </ul>
-          </nav>
+          <section class="content-us-left">
+              <h3 class="name">Denise Overbeck Troglio</h3>
+              <p class="itemAbout">Con formación en Secretariado Ejecutivo, y experiencia en empresas de auditoría y
+                  educación.
+                  Detallista, observadora y proactiva. Capacidad de trabajo en equipo y buen relacionamiento
+                  interpersonal.</p>
+              <nav>
+                  <ul class="socialMedia">
+                      <li><i class="fab fa-linkedin" alt="Linkedin"><a href="#" target="_blank"></a></i></li>
+                      <li><i class="fab fa-github" alt="github"><a href="#" target="_blank"></a></i></li>
+                  </ul>
+              </nav>
+          </section>
       </article>
 
-      <article>
+      <article class="right">
           <img src="./assets/images/claudia.jpg" class="picture">
-          <h3 class="name">Claudia Berrocal</h3>
-          <p class="itemAbout">Abogada con experiencia tanto en el área de asesoría jurídica como en materia de protección
-              de datos.
-              Predomina su proactividad y su capacidad de resolución de conflictos. Multidisciplinar, comunicativa
-              y con una gran atención al detalle.</p>
-          <nav>
-              <ul class="socialMedia">
-
-                  <li><i class="fab fa-twitter-square" alt="twitter"><a href="#"></a></i></li>
-                  <li><i class="fab fa-linkedin" alt="Linkedin"><a href="#"></a></i></li>
-                  <li><i class="fab fa-github" alt="github"><a href="#"></a></i></li>
-
-              </ul>
-          </nav>
+          <section class="content-us-right">
+              <h3 class="name">Claudia Berrocal</h3>
+              <p class="itemAbout">Abogada con experiencia tanto en el área de asesoría jurídica como en materia de
+                  protección
+                  de datos.
+                  Predomina su proactividad y su capacidad de resolución de conflictos. Multidisciplinar, comunicativa
+                  y con una gran atención al detalle.</p>
+              <nav>
+                  <ul class="socialMedia">
+                      <li><a href="https://twitter.com/RGPque" target="_blank"><i class="fab fa-twitter-square"
+                                  alt="twitter"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/claudia-berrocal/" target="_blank"><i
+                                  class="fab fa-linkedin" alt="Linkedin"></i></a></li>
+                      <li><a href="https://github.com/claudiabg-c" target="_blank"><i class="fab fa-github"
+                                  alt="github"></i></a></li>
+                  </ul>
+              </nav>
+          </section>
       </article>
 
   </section>
@@ -179,11 +197,11 @@
   <footer class="footer">
     <span class="nombre-grupo">Developers Squad © 2021</span>
 
-    <nav>
+    <nav class="navFooter">
       <ul class="menu">
-        <li><a class="lista" href="#vinequipo">EQUIPO</a>
-        <li><a class="lista" href="#vinwho">QUIÉNES SOMOS</a>
-        <li><a class="lista" href="#vincontact">CONTACTO</a></li>
+        <li><a class="lista" href="../index.html#vinequipo">EQUIPO</a>
+        <li><a class="lista" href="../index.html#vinwho">QUIÉNES SOMOS</a>
+        <li><a class="lista" href="../contact.html">CONTACTO</a></li>
     </nav>
     <img class="imagen" src="https://adalab.es/wp-content/uploads/2021/05/logo-adalab.svg" alt="logo adalab">
   </footer>
