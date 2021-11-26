@@ -12,6 +12,10 @@
     align-items: center;
     padding-top: 30px;
     padding-bottom: 15px;
+
+    @media (min-width: 768px) {
+      font-size: 28px;
+    }
   }
 
   & .textcontact {
@@ -22,6 +26,15 @@
     line-height: 24px;
     padding-top: 0%;
     padding-bottom: 30px;
+
+    @media (min-width: 768px) {
+      padding: 0 163px 30px;
+      font-size: 18px;
+    }
+
+    @media (min-width: 1200px) {
+      padding: 0 300px 30px;
+    }
   }
 
   & .small {
@@ -30,6 +43,10 @@
     text-align: center;
     font-family: "opensans", sans-serif;
     padding-bottom: 58px;
+
+    @media (min-width: 768px) {
+      font-size: 14px;
+    }
   }
 }
 
@@ -40,10 +57,22 @@ span {
 .form {
   padding: 0 15px;
 
+  @media (min-width: 768px) {
+    padding: 0 163px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 300px;
+  }
+
   & label {
     font-size: 14px;
     font-family: "opensans", sans-serif;
     color: #54585a;
+
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
   }
 
   & input {
@@ -59,11 +88,19 @@ span {
     color: #b8b8b9;
     font-size: 14px;
     font-family: "opensans", sans-serif;
+
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
   }
 
   #email::placeholder {
     color: #54585a;
     font-size: 16px;
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   & #textarea {
@@ -85,5 +122,9 @@ span {
     background-color: var(--brand-color);
     text-transform: uppercase;
     font-weight: 600;
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
   }
 }
