@@ -56,6 +56,9 @@ span {
 
 .form {
   padding: 0 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 3rem;
 
   @media (min-width: 768px) {
     padding: 0 163px;
@@ -122,9 +125,57 @@ span {
     background-color: var(--brand-color);
     text-transform: uppercase;
     font-weight: 600;
+  }
+}
 
-    @media (min-width: 768px) {
-      font-size: 18px;
-    }
+.name {
+  grid-column: 1/8;
+}
+.email {
+  grid-column: 1/8;
+}
+.phone {
+  grid-column: 1/8;
+}
+.message {
+  grid-column: 1/8;
+}
+.send {
+  grid-column: 1/8;
+}
+
+@media (min-width: 768px) {
+  .name {
+    grid-column: 1/8;
+  }
+  .email {
+    grid-column: 1/8;
+  }
+  .phone {
+    grid-column: 1/8;
+  }
+  .message {
+    grid-column: 1/8;
+  }
+  .send {
+    grid-column: 5/8;
+  }
+}
+
+@media (min-width: 1200px) {
+  .name {
+    grid-column: 1/8;
+  }
+  .email {
+    grid-column: 1/6;
+  }
+  .phone {
+    grid-column: 6/8;
+  }
+  .message {
+    grid-column: 1/8;
+  }
+  .send {
+    grid-column: 5/8;
   }
 }
