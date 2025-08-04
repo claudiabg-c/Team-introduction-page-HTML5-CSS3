@@ -28,8 +28,8 @@
 	},
 	"scripts": {
 		"start": "gulp",
-		"docs": "rm -rf docs && ./node_modules/.bin/gulp docs",
-		"push-docs": "rm -rf docs && gulp docs && git add docs/* && git commit -m \"Update docs\" && git push",
+		"docs": "gulp docs",
+		"push-docs": "gulp docs && git add docs/* && git commit -m \"Update docs\" && git push",
 		"deploy": "npm run push-docs"
 	},
 	"repository": {
