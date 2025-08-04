@@ -27,16 +27,16 @@
 		"lodash.template": ">=4.5.0"
 	},
 	"scripts": {
-		"start": "./node_modules/.bin/gulp",
+		"start": "gulp",
 		"docs": "rm -rf docs && ./node_modules/.bin/gulp docs",
 		"push-docs": "rm -rf docs && gulp docs && git add docs/* && git commit -m \"Update docs\" && git push",
 		"deploy": "npm run push-docs"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:Adalab/adalab-web-starter-kit.git"
+		"url": "git+ssh://git@github.com/claudiabg-c/Team-introduction-page-HTML5-CSS3.git"
 	},
 	"author": "Adalab",
 	"license": "MIT",
-	"homepage": "https://github.com/adalab/adalab-web-starter-kit"
+	"homepage": "https://github.com/claudiabg-c/Team-introduction-page-HTML5-CSS3"
 }
